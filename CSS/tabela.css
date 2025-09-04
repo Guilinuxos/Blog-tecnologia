@@ -5,10 +5,10 @@ table, th, td{
     padding: 10px;
 }
 
-tr:first-child th {
-    text-align: center;
+th {
+    padding: 10px;
+    text-align: left;
     vertical-align: middle;
-}
 
 
 td {
