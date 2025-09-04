@@ -1,0 +1,12 @@
+ body {
+            background-color: #FFFFFF;
+            font-family: "Arial";
+    }
+    img {
+
+        width: 100%;
+        max-width: 600px;
+    }
+    a{
+        text-decoration: none;
+    }
