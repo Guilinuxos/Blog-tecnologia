@@ -1,0 +1,19 @@
+table, th, td{
+    border: 2px solid gray;
+    width: auto;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:first-child th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+td {
+    text-align: left;
+    vertical-align: middle;
+
+
+}
