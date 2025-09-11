@@ -55,16 +55,36 @@
     <blockquote>        <input type="text" name="nome" 
         placeholder=""  
             style="border-radius: 3px; height: 21.33px; width: 170px; border: 2px solid #767676;"></blockquote>
+<br>
+    <blockquote>Estado:</blockquote>
 
-    <br>
-    <blockquote><label for="nome">Estado:</label><br></blockquote>
+<label for="options"></label>
+<blockquote>
+<select id="options">
+    <option value="" disabled selected hidden>Selecione...</option>
+    <option value="1">Minas Gerais</option>
+    <option value="2">Espírito Santo</option>
+    <option value="3">Rio de Janeiro</option>
+    <option value="4">São Paulo</option>
+</select>
+</blockquote>
+
+<br>
+    <blockquote><label for="nome">CEP:</label><br></blockquote>
     <blockquote>        <input type="text" name="nome" 
-        
-        placeholder= "Selecione..."  
-            style="border-radius: 3px; height: 17.33px; width: 107.33x; border: 2px solid #767676;"></blockquote>
+        placeholder="00000-000"  
+            style="border-radius: 3px; height: 21.33px; width: 170px; border: 2px solid #767676;"></blockquote>
 
+<br>
+<blockquote>Experiência e Conhecimento</blockquote>
+<blockquote>Nível de Conhecimento em Tecnologia:</blockquote>
+<form>
+  <blockquote><input type="radio" id="inicio" name="experience" value="Iniciante">
+  <label for="iniciante">Iniciante</label> </blockquote>
 
+  <blockquote><input type="radio" id="intermediário" name="experience" value="intermediário">
+  <label for="intermediário">Intermediário</label> </blockquote>
 
-
-
-        
+<blockquote><input type="radio" id="avançado" name="experience" value="avançado">
+  <label for="avançado">Avançado</label> </blockquote>
+</form>
