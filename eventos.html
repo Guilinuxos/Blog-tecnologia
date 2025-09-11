@@ -107,12 +107,95 @@
 
 
 <br>
-<blockquote>Detalhes</blockquote>
-<blockquote>Tipo de Evento</blockquote>
+<blockquote><label for="options">Tipo de evento</label></blockquote>
 <blockquote>
 <select id="options">
     <option value="" disabled selected hidden>Selecione...</option>
-    <option value="1">Evento</option>
-
 </select>
 </blockquote>
+
+<blockquote>
+    <form>
+        <label for="nascimento">Data:</label><br>
+        <input type="date" id="data" name="data">
+    </form>
+</blockquote>
+
+<blockquote>
+    <form>
+        <label for="time">Hora de início:</label><br>
+        <input type="time" id="time" name="time">
+    </form>
+</blockquote>
+
+<blockquote>
+    <form>
+        <p>Número de participantes:</p>
+        <textarea name="participantes" id="participantes" rows="1" cols="10"></textarea>
+    </form>
+</blockquote>
+
+<br>
+
+<blockquote>
+    Preferências e Notificações
+    <form>
+  <p>Formato do Evento:</p>
+  <input type="radio" id="online" name="online" value="online">
+  <label for="online">Online</label><br>
+
+  <input type="radio" id="presencial" name="presencial" value="presencial">
+  <label for="presencial">Presencial</label><br>
+</form>
+</blockquote>
+
+<blockquote><label for="options">Horário preferido:</label></blockquote>
+<blockquote>
+<select id="options">
+    <option value="" disabled selected hidden>Selecione...</option>
+</select>
+</blockquote>
+
+<br>
+
+<form>
+  <input type="checkbox" id="html" name="html" value="html">
+  <label for="html"> Quero receber novidades e newsletters</label><br>
+</form>
+
+<br>
+<br>
+
+<blockquote>Upload de Arquivos</blockquote>
+<blockquote>Enviar Currículo (PDF):
+
+<form>
+  <label for="arquivo">Escolha um arquivo:</label>
+  <input type="file" id="arquivo" name="arquivo">
+</form>
+</blockquote>
+
+<blockquote>Portifólio (opcional):
+<form>
+  <label for="arquivo">Escolha um arquivo:</label>
+  <input type="file" id="arquivo" name="arquivo">
+</form>
+</blockquote>
+
+<br>
+<br>
+
+<blockquote>Observações</blockquote>
+<blockquote>Mensagem:</blockquote>
+<blockquote><textarea name="message_input" id="message_id" rows="2" cols="24" placeholder="Digite o seu nome completo"></textarea></blockquote>   
+
+<br>
+<br>
+
+<button onclick="alert('Enviado!')">Enviar inscrição</button>
+
+<br><br><br>
+
+
+</body>
+</html>
